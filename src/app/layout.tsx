@@ -1,4 +1,4 @@
-//import { Menu } from '@/components/Menu/Menu'
+import { Menu } from '@/components/Menu/Menu'
 import styles from './page.module.css'
 
 export default function RootLayout({
@@ -7,10 +7,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={styles.body}>
-      <main>{children}</main>
-      
+    <html lang="pt-br">
+      <body>
+        <div className={styles.div}>
+          <main >{children}</main>
+          <Menu />
+        </div>
       </body>
     </html>
   )
