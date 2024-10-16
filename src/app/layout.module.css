@@ -1,6 +1,6 @@
-.div{
+.body{
     width: 92vw;
-    margin: 3vw auto;
+    margin: 1vw auto;
     display: grid;
     grid-template-rows: 84vh 10vh;
 }
