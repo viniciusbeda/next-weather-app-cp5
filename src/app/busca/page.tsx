@@ -55,7 +55,7 @@ export default function Busca() {
             <Header title="Busca" userName={userName} />
             <form>
                 <Input
-                    label="Buscar cidade"
+                    label="Buscar pela cidade"
                     id="search"
                     name="search"
                     type="text"

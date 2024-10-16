@@ -11,7 +11,7 @@ const UserContextProvider = ({ children }: UserContextProviderProps) => {
     const [userName, setUserName] = useState("")
 
     return (
-        <UserContext.Provider value={{
+        <UserContext.Provider value ={{
             userName,
             setUserName,
         }}>

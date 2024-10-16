@@ -64,7 +64,6 @@ export default function Login() {
                     name="login"
                     label="Login"
                     onChange={handleLogin}
-                    placeholder="digite seu email"
                 />
 
                 <Input
