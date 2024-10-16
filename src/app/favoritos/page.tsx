@@ -13,3 +13,5 @@ export default function Favoritos(){
         <Header title="Favoritos" userName={userName} />
     </>
 }
+
+// NÃO SEI PORQUE, ESSA PÁGINA NÃO ESTÁ FUNCIONANDO DIREITO NO NAVEGADOR!!
